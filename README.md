@@ -11,7 +11,8 @@ Ubuntu 22.04.2 LTS 64 bit
 ### How to reproduce
 1. Download data from kaggle into the data folder
 2. Split fragment 2 along the y-axis(height) into 3 equal parts, store the top, middle and bottom in data/train/2, data/train/3 and data/train/4
-3. Run the following in the terminal:
+3. Store fragment 3 as data/train/4
+4. Run the following in the terminal:
 ```
 python sample.py
 python pretrain.py
