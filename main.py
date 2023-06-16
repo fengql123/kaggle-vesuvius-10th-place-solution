@@ -12,6 +12,8 @@ if __name__ == "__main__":
     CFG.exp_name = "trained"
     CFG.use_pretrained = True
     CFG.model = "3D-2D"
+    CFG.epochs = 7
+    CFG.lr = 5e-5
     Logger = init_logger(log_file=f"{CFG.log_path}.txt")
     Logger.info(f"exp_id: {CFG.exp_name}")
     set_seed(CFG.seed)
