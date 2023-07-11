@@ -20,11 +20,12 @@ python main.py
 ```
 4. The trained weights will be stored in weights/trained
 5. Upload the weights to the [notebook](https://www.kaggle.com/code/fengqilong/vesuvius-inference), set the dataset name as "trained"
-  The dataset struture should be:
-    trained
-     -weight1
-     -weight2
-     -weight3
-     -weight4
-7. Change `CFG.exp_name` to `"trained"`
-8. Submit to competition
+```
+├── trained
+│   ├── weight fold 1
+│   ├── weight fold 2
+│   ├── weight fold 3
+│   ├── weight fold 4
+```
+6. Change `CFG.exp_name` to `"trained"`
+7. Submit to competition
