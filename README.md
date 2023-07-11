@@ -27,5 +27,5 @@ python main.py
 │   ├── weight fold 3
 │   ├── weight fold 4
 ```
-6. Change `CFG.exp_name` to `"trained"`
+6. Change `CFG.exp_name` and `TH` to `"trained"` and the cv threshold shown in output respectively.
 7. Submit to competition
